@@ -115,3 +115,27 @@ main{
     color: rgba(0, 0, 0, 0.5);
 }
 
+.part4-title{
+    text-align: center;
+    font-size: 30px;
+    margin:40px 40px 40px 40px;
+}
+
+
+.part4-container{
+    display: flex;
+    gap: 40px;
+}
+.complement{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 1px 2px rgba(242, 237, 237, 1);
+}
+.date{
+    display: flex;
+    color: rgb(218, 202, 202);
+}
+.name{
+    display: flex;
+    color: gray;
+}
