@@ -6,6 +6,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+.bg-color{
+    background-color: rgb(214, 220, 232);
+}
 .header{
     background-image: url(../styles/Assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -13,10 +16,10 @@
     height: 700px;
     background-position: top left, bottom right;
     margin: 50px;
-
+}
 
    
-}
+
 nav{
     display: flex;
     align-items: center;
@@ -81,6 +84,34 @@ nav ul li{
 .part2-img{
     width: 403px;
     height: 328px;
-    border-radius: 60px;
+    border-radius: 60px; 
+}
+main{
+    max-width: 1140px;
+    margin:0 auto;
     
 }
+.part3{
+    border-radius: 20px;
+     padding: 50px 60px ;
+     text-align: center;
+     margin-top: 120px;
+}
+.part3-items{
+    display: flex;
+    justify-content: space-around;
+}
+.part3-item-title{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: rgba(78, 71, 255, 1);
+    font-size: 50px;
+    font-weight: 800; 
+}
+
+.part3-item-description{
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+}
+
