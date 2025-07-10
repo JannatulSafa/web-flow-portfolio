@@ -9,13 +9,30 @@
 .bg-color{
     background-color: rgb(214, 220, 232);
 }
-.header{
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ .header {
+    background-image: url('../styles/Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;  /* or use: background-size: 100% auto; */
+    background-position: top center;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+
+    /* .header{
     background-image: url(../styles/Assets/Hero-bg.png);
     background-repeat: no-repeat;
     max-width: 1440px;
     height: 700px;
     background-position: top left, bottom right;
-    margin: 50px;
+    margin: 50px; */
+    
 }
 
    
@@ -24,7 +41,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10px 150px;
+   padding: 10px 0;
 
 }
 .nav-title{
@@ -45,8 +62,12 @@ nav ul li{
     padding: 15px 30px;
     border-radius: 10px;
     color: white;
-
+     
 }
+.btn:hover{
+    background-color: black;
+}
+
 .part1{
     text-align: center;
 }
@@ -85,6 +106,8 @@ nav ul li{
     width: 403px;
     height: 328px;
     border-radius: 60px; 
+    margin-top: 30px;
+    
 }
 main{
     max-width: 1140px;
@@ -139,3 +162,78 @@ main{
     display: flex;
     color: gray;
 }
+.part5{
+    margin-top: 50px;
+    background-color: rgba(214, 221, 237, 1);
+    padding: 130px 160px;
+    display: flex;
+    gap: 120px;
+    max-width:  1140px;
+    max-height: 632px;
+
+}
+.part5-column{
+    width: 100%;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+}
+section input[type="text"], section input[type="email"], section textarea{
+    gap: 10px;
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 20px 32px;
+    margin-bottom: 25px;
+    border: gray;
+}
+.btn3{
+
+    border: 100px;
+    border-radius: 10px;
+    height: 62px;
+    width: 100%
+
+}
+
+.footer {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 50px 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer-logo {
+  font-size: 40px;
+  font-weight: 800;
+  color: rgba(78, 71, 255, 1); 
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  color: rgba(0, 0, 0, 0.6);
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+
+.footer-menu a:hover {
+  color: rgba(78, 71, 255, 1); 
+}
+
