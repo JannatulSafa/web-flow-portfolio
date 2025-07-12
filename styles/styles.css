@@ -14,29 +14,17 @@
     margin: 0 auto;
     padding: 0 20px;
 }
+/* header style */
  .header {
     background-image: url('../styles/Assets/Hero-bg.png');
     background-repeat: no-repeat;
-    background-size: contain;  /* or use: background-size: 100% auto; */
+    background-size: contain;  
     background-position: top center;
     width: 100%;
     height: 700px;
     margin: 0 auto;
 }
-
-
-    /* .header{
-    background-image: url(../styles/Assets/Hero-bg.png);
-    background-repeat: no-repeat;
-    max-width: 1440px;
-    height: 700px;
-    background-position: top left, bottom right;
-    margin: 50px; */
-    
-
-
-   
-
+/* nav style */
 nav{
     display: flex;
     align-items: center;
@@ -56,6 +44,7 @@ nav ul li{
     list-style: none;
     margin-right: 50px;
 }
+/* btn style */
 .btn{
     background-color: rgba(78, 71, 255, 1);
     font-weight: 500px;
@@ -69,7 +58,7 @@ nav ul li{
     background-color: black;
     border-color: none;
 }
-
+/* part-1 style */
 .part1{
     text-align: center;
 }
@@ -82,9 +71,11 @@ nav ul li{
     justify-content: space-between;
     font-family: sans-serif;
 } 
+
 .btn2{
     text-align: center;
 }
+/* part-2 style */
 .part2{
     display: flex;
     justify-content: space-evenly;
@@ -111,11 +102,13 @@ nav ul li{
     margin-top: 30px;
     
 }
+/* main style */
 main{
     max-width: 1140px;
     margin:0 auto;
     
 }
+/* part-3 style */
 .part3{
     border-radius: 20px;
      padding: 50px 60px ;
@@ -139,7 +132,7 @@ main{
     font-weight: 300;
     color: rgba(0, 0, 0, 0.5);
 }
-
+/* part-4 style */
 .part4-title{
     text-align: center;
     font-size: 30px;
@@ -164,6 +157,7 @@ main{
     display: flex;
     color: gray;
 }
+/* part-5 style */
 .part5{
     margin-top: 50px;
     background-color: rgba(214, 221, 237, 1);
@@ -206,7 +200,7 @@ section input[type="text"], section input[type="email"], section textarea{
 .btn3:hover{
     background-color: black;
 }
-
+/* footer style */
 .footer {
   text-align: center;
   background-color: #ffffff;
