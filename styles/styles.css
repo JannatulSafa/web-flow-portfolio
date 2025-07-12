@@ -67,6 +67,7 @@ nav ul li{
 }
 .btn:hover{
     background-color: black;
+    border-color: none;
 }
 
 .part1{
@@ -201,6 +202,9 @@ section input[type="text"], section input[type="email"], section textarea{
     height: 62px;
     width: 100%
 
+}
+.btn3:hover{
+    background-color: black;
 }
 
 .footer {
